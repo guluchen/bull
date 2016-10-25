@@ -1,0 +1,30 @@
+JC = javac    
+CC = gcc
+CXX = g++
+JNILIB = libcdnfp.so
+JFLAGS = -cp .:../solvers/sat4j.jar
+CORE = ../core
+
+
+CFLAGS = -O2 -fPIC -Wall -I./ -I$(CORE) -c
+CXXFLAGS = Cdnfp.o -fPIC -Wall $(CORE)/libcdnfp.a -lz -shared
+
+
+CSRC = \
+	Cdnfp.c
+OBJS = $(CSRC:.c=.o)
+
+JSRC = \
+	Cdnfp.java \
+	BooleanFormula.java
+CLASSES = $(JSRC:.java=.class)
+all: $(CLASSES) $(OBJS) $(JNILIB) 
+%.class:%.java 
+	$(JC) $(JFLAGS) $<
+%.o:%.c
+	$(CC) $(CFLAGS) $<
+$(JNILIB):Cdnfp.o
+	$(CXX) $(CXXFLAGS) -o $(JNILIB)
+clean::
+	rm -f *.o *.class $(JNILIB)
+

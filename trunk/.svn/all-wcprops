@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/68/trunk
+END
+build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/67/trunk/build.sh
+END
+clean.sh
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/67/trunk/clean.sh
+END

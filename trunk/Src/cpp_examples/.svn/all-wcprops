@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/67/trunk/Src/cpp_examples
+END
+minisat_stub.cc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/67/trunk/Src/cpp_examples/minisat_stub.cc
+END
+minisat_stub.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/67/trunk/Src/cpp_examples/minisat_stub.h
+END
+oracle.cc
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/67/trunk/Src/cpp_examples/oracle.cc
+END
+oracle.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/67/trunk/Src/cpp_examples/oracle.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/67/trunk/Src/cpp_examples/Makefile
+END

@@ -1,0 +1,70 @@
+\relax 
+\citation{MP:1995:OLIRS}
+\citation{MP:1995:OLIRS}
+\citation{CGP:2003:LACV}
+\citation{HV:05}
+\citation{CGP:2003:LACV}
+\citation{HV:05}
+\citation{CCFTTW:10:AAGRIL}
+\citation{JKWY:10:DIPL}
+\@writefile{toc}{\contentsline {title}{BULL: a Library for Learning Algorithms of Boolean Functions }{1}}
+\@writefile{toc}{\contentsline {author}{Yu-Fang Chen \and Bow-Yaw Wang}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\citation{libalf}
+\citation{learnlib}
+\citation{B:95:ELBF}
+\citation{CW12}
+\citation{CW12}
+\@writefile{toc}{\contentsline {section}{\numberline {2}The BULL Library}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces System Architecture}}{2}}
+\newlabel{fig:arch}{{1}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}How to Use the Package}{2}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Features of Algorithms}}{3}}
+\newlabel{tab:algimp}{{1}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Users of BULL}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Potential Applications}{3}}
+\citation{libalf}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Experimental Results}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Compare Boolean Learning and Automata Learning Algorithms}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Compare Boolean Learning Algorithms using 3SAT Formulae}{4}}
+\bibstyle{abbrv}
+\bibdata{main}
+\bibcite{libalf}{1}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Comparison of automata and Boolean function learning algorithm: using n-bit counter as the example}}{5}}
+\newlabel{tab:autboolcmp}{{2}{5}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Comparison of automata and Boolean function learning algorithm: using n-bit counter with non-deterministic reset as the example}}{5}}
+\newlabel{tab:autboolcmp2}{{3}{5}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces The number of timeout cases out of 180 instances}}{5}}
+\newlabel{tab:cdnfcmp}{{4}{5}}
+\bibcite{B:95:ELBF}{2}
+\bibcite{CCFTTW:10:AAGRIL}{3}
+\bibcite{CW12}{4}
+\bibcite{CGP:2003:LACV}{5}
+\bibcite{HV:05}{6}
+\bibcite{JKWY:10:DIPL}{7}
+\bibcite{JLWY:11:PGLBQFLII}{8}
+\bibcite{MP:1995:OLIRS}{9}
+\bibcite{learnlib}{10}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Comparison of Boolean learning algorithms, using random 3SAT formulae as the benchmark. The vertical axis is the average execution time in seconds and the horizontal axis is the number of variables in the formula. Each point is the average results of 50 instances. }}{6}}
+\newlabel{fig:cdnfcmp}{{2}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Appendix}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}The BULL Library}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces The final output.}}{8}}
+\newlabel{out}{{3}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.2}Use BULL to Infer Loop Invariants of a Boolean Program}{9}}
+\newlabel{learnInv}{{A.2}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces A sample Boolean program and its loop invariant}}{9}}
+\newlabel{binv}{{4}{9}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces Equivalence query}}{10}}
+\newlabel{equ}{{1}{10}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {2}{\ignorespaces Membership query}}{10}}
+\newlabel{mem}{{2}{10}}
+\citation{JLWY:11:PGLBQFLII}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Function signatures of membership and equivalence queries. The field \texttt  {void *info} is used for passing additional information to the queries, e.g., when running several different instances of BULL at the same time, the field can be used to identify the difference between instances. The field \texttt  {uscalar\_t num\_vars} is used for passing in the number of variables of the candidate boolean function. In this example, this number should be fixed to a constant 2. \texttt  {membership\_result\_t} is a boolean value while \texttt  {equivalence\_result\_t} contains a boolean value for the yes-or-no answer and a bitvector to store a counterexample assignment.}}{11}}
+\newlabel{qtypes}{{5}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Signature the learner function. The field \texttt  {void *info} is used for passing additional information to the queries and \texttt  {uscalar\_t num\_vars} is the number of variables in the target function. The fields \texttt  {membership\_t membership}, \texttt  { membership\_t comembership}, \texttt  {equivalence\_t equivalence} are pointers to the implemented functions for membership query, comembership query, and equivalence query, respectively. For CDNF, CDNF+, CDNF++ learning algorithms, the values of \texttt  {mode} should be set to CDNF, CDNF\_Plus, CDNF\_PlusPlus, respectively.}}{11}}
+\newlabel{learner}{{6}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The main function of the C implementation.}}{12}}
+\newlabel{main}{{7}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces The final output.}}{12}}
+\newlabel{output2}{{8}{12}}

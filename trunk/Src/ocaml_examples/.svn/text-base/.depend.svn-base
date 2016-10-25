@@ -1,0 +1,17 @@
+boolFormula.cmo: cdnfp.cmi boolFormula.cmi 
+boolFormula.cmx: cdnfp.cmx boolFormula.cmi 
+boolFormula.cmi: cdnfp.cmi 
+cdnfp.cmo: query.cmi cdnfp.cmi 
+cdnfp.cmx: query.cmx cdnfp.cmi 
+cdnfp.cmi: query.cmi 
+main.cmo: oracle.cmi boolFormula.cmi 
+main.cmx: oracle.cmx boolFormula.cmx 
+minisat.cmo: minisat.cmi 
+minisat.cmx: minisat.cmi 
+minisat.cmi: 
+oracle.cmo: minisat.cmi boolFormula.cmi oracle.cmi 
+oracle.cmx: minisat.cmx boolFormula.cmx oracle.cmi 
+oracle.cmi: boolFormula.cmi 
+query.cmo: query.cmi 
+query.cmx: query.cmi 
+query.cmi: 

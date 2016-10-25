@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/27/trunk/Src/solvers/minisat/core
+END
+Solver.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/26/trunk/Src/solvers/minisat/core/Solver.h
+END
+depend.mk
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/26/trunk/Src/solvers/minisat/core/depend.mk
+END
+SolverTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/26/trunk/Src/solvers/minisat/core/SolverTypes.h
+END
+Dimacs.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/26/trunk/Src/solvers/minisat/core/Dimacs.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/26/trunk/Src/solvers/minisat/core/Makefile
+END
+Solver.cc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/26/trunk/Src/solvers/minisat/core/Solver.cc
+END

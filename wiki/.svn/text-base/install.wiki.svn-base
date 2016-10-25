@@ -1,0 +1,8 @@
+#summary Installation
+
+= Steps =
+
+=== Install Ocaml 3.12.1 if you want to interface our tool with OCaml ===
+===Install JDK >= 1.6 if you want to interface our tool with JAVA ===
+=== Download the BULLX.X.X.tar file and untar it or get the source via SVN ===
+=== Type ./build.sh in the project folder and done.===

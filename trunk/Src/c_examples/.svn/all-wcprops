@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/66/trunk/Src/c_examples
+END
+learn_inv.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/66/trunk/Src/c_examples/learn_inv.h
+END
+minisat_stub.cc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/66/trunk/Src/c_examples/minisat_stub.cc
+END
+oracle.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/66/trunk/Src/c_examples/oracle.c
+END
+minisat_stub.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/66/trunk/Src/c_examples/minisat_stub.h
+END
+oracle.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/66/trunk/Src/c_examples/oracle.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/66/trunk/Src/c_examples/Makefile
+END
+learn_inv.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/66/trunk/Src/c_examples/learn_inv.c
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/67/trunk/Src/core
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/67/trunk/Src/core/Makefile
+END
+cdnf.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/67/trunk/Src/core/cdnf.h
+END
+cdnfformula.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/49/trunk/Src/core/cdnfformula.c
+END
+boolformula.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/57/trunk/Src/core/boolformula.c
+END
+bitvector.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/67/trunk/Src/core/bitvector.c
+END
+vector.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/31/trunk/Src/core/vector.c
+END
+cdnfformula.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/31/trunk/Src/core/cdnfformula.h
+END
+boolformula.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/44/trunk/Src/core/boolformula.h
+END
+bitvector.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/50/trunk/Src/core/bitvector.h
+END
+type.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/31/trunk/Src/core/type.h
+END
+vector.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/31/trunk/Src/core/vector.h
+END
+query.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/46/trunk/Src/core/query.h
+END
+cdnf.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/67/trunk/Src/core/cdnf.c
+END

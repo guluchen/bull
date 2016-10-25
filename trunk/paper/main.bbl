@@ -1,0 +1,58 @@
+\begin{thebibliography}{10}
+
+\bibitem{libalf}
+B.~Bollig, J.-P. Katoen, C.~Kern, M.~Leucker, D.~Neider, and D.~R. Piegdon.
+\newblock libalf: The automata learning framework.
+\newblock In {\em CAV}, LNCS, pages 360--364. Springer, 2010.
+
+\bibitem{B:95:ELBF}
+N.~H. Bshouty.
+\newblock Exact learning {Boolean} function via the monotone theory.
+\newblock {\em Information and Computation}, 123(1):146--153, 1995.
+
+\bibitem{CCFTTW:10:AAGRIL}
+Y.-F. Chen, E.~M. Clarke, A.~Farzan, M.-H. Tsai, Y.-K. Tsay, and B.-Y. Wang.
+\newblock Automated assume-guarantee reasoning through implicit learning.
+\newblock In {\em CAV}, LNCS, pages 511--526. Springer, 2010.
+
+\bibitem{CW12}
+Y.-F. Chen and B.-Y. Wang.
+\newblock Learning boolean functions increamentally.
+\newblock In {\em CAV}, LNCS, pages 55--70. Springer, 2012.
+
+\bibitem{CGP:2003:LACV}
+J.~M. Cobleigh, D.~Giannakopoulou, and C.~S. P{\u a}s{\u a}reanu.
+\newblock Learning assumptions for compositional verification.
+\newblock In H.~Garavel and J.~Hatcliff, editors, {\em TACAS}, volume 2619 of
+  {\em LNCS}, pages 331--346. Springer, 2003.
+
+\bibitem{HV:05}
+P.~Habermehl and T.~Vojnar.
+\newblock Regular model checking using inference of regular languages.
+\newblock In {\em ENTCS}, pages 21--36, 2005.
+
+\bibitem{JKWY:10:DIPL}
+Y.~Jung, S.~Kong, B.-Y. Wang, and K.~Yi.
+\newblock Deriving invariants in propositional logic by algorithmic learning,
+  decision procedure, and predicate abstraction.
+\newblock In G.~Barthe and M.~V. Hermenegildo, editors, {\em VMCAI}, LNCS,
+  pages 180--196. Springer, 2010.
+
+\bibitem{JLWY:11:PGLBQFLII}
+Y.~Jung, W.~Lee, B.-Y. Wang, and K.~Yi.
+\newblock Predicate generation for learning-based quantifier-free loop
+  invariant inference.
+\newblock In P.~A. Abdulla and K.~R.~M. Leino, editors, {\em TACAS}, volume
+  6605 of {\em LNCS}, pages 205--219. Springer, 2011.
+
+\bibitem{MP:1995:OLIRS}
+O.~Maler and A.~Pnueli.
+\newblock On the learnability of infinitary regular sets.
+\newblock {\em Information and Computation}, 118(2):316--326, 1995.
+
+\bibitem{learnlib}
+H.~Raffelt, B.~Steffen, T.~Berg, and T.~Margaria.
+\newblock Learnlib: a framework for extrapolating behavioral models.
+\newblock {\em STTT}, 11(5):393--407, 2009.
+
+\end{thebibliography}

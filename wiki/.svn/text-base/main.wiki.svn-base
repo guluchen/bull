@@ -1,0 +1,7 @@
+#summary The BULL project main page.
+
+= Introduction =
+
+Learning algorithms for boolean functions have recently been applied and shown useful in various applications of formal verification, e.g., automated compositional reasoning and finding loop invariants.  
+In this paper we present the tool BULL (Boolean fUnction Learning Library), the first publicly available implementation of such learning algorithms.
+The tool is implemented in C with interfaces to JAVA and OCAML.

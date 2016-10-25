@@ -1,0 +1,97 @@
+\documentclass{article}
+
+
+\title{The BULL Package: Installation Guide }
+
+\begin{document}
+\maketitle
+The BULL (Boolean fUnction Learning Library) package has been compiled and tested on Linux and MacOS 10.6.8. It is freely available under the open source LGPL v3 license. The project web-site is \verb"http://code.google.com/p/project-bull/".
+ 
+
+\section{Get the Package}
+
+The package can be obtained via SVN:\\
+\verb"svn co http://project-bull.googlecode.com/svn/trunk/ project-bull-read-only" (note that there is a space between ``\verb"...trunk/"'' and  ``\verb"project-bull-read-only"''.)
+It consists of the following 6 folders:
+\begin{description}
+\item[Src/core]\ \\ 
+The core library code in C.
+\item [Src/c]\ \\ 
+Example of an oracle that learns given formula implemented in C.
+Example of an oracle that learns a loop invariant of the boolean program described below.
+\item [Src/cpp]\ \\ 
+Example of an oracle implemented in C++.
+\item [Src/java]\ \\ 
+Example of an oracle implemented in JAVA.
+\item [Src/ocaml]\ \\ 
+Example of an oracle implemented in OCaml.
+\item [Src/solvers]\ \\ 
+SAT Solvers used by the oracles. Currently we use minisat as the default solver for C++ and OCaml, SAT4J as the default for JAVA.
+\item [dimacs]\ \\
+CNF formulae that can be used as the target functions, taken from\\ \verb"ftp://dimacs.rutgers.edu/pub/challenge/satisfiability/benchmarks/cnf/".
+\end{description}
+
+\section{Prerequisites}
+\begin{enumerate}
+\item GNU C,C++ complier and the make utility
+\item JAVA developer kit $\geq$1.6 (needed for the JAVA oracle example)
+\item OCAML  3.12.1 (needed for the OCaml oracle example, we assume OCaml libraries are in /opt/local or /usr/local)
+\item Minisat 2.2.0 for the C and OCaml oracle examples and SAT4J for the JAVA oracle example. (For the convenience of the users, we pack the source code of minisat and the jar file of SAT4J into our tool.)
+
+\end{enumerate}
+
+\section{Compilation}
+
+We use \verb"{BULL-dir}" to denote the root folder of BULL.
+The easiest way is to run the ./build script in the root folder of BULL. 
+It will automatically compile solvers, the core library, and oracles in different programming languages 
+For users who only need a part of the package, we describe how to compile each component in detail below.
+
+\subsection{The Core Library}
+\begin{enumerate}
+\item \verb"cd {BULL-dir}/Src/core"
+\item make
+\end{enumerate}
+
+\subsection{Solvers}
+Before the compilation of the C or OCaml oracles, users have to first compile the minisat tool.
+For convenience, source code of minisat 2.2.0 is included in our package.
+
+\begin{enumerate}
+\item \verb"cd {BULL-dir}/Src/solvers/minisat/core"
+\item {\footnotesize \verb"g++ -c  -O2 -D __STDC_LIMIT_MACROS -D __STDC_FORMAT_MACROS -I../ Solver.cc"}
+\end{enumerate}
+
+\subsection{Oracles}
+
+\begin{enumerate}
+\item \verb"cd {BULL-dir}/Src/[c, java, ocaml]"
+\item make
+\end{enumerate}
+
+\section{Execution}
+Below we show how to run learning algorithms using the example oracles implemented in C, OCaml, and JAVA.
+We use \verb"{Exec}" to denote the location of the executables. 
+
+\begin{itemize}
+\item For C, \verb"{Exec} = {BULL-dir}/Src/c/learn"
+\item For JAVA, \verb"{Exec} = {BULL-dir}/Src/java/learn.sh"
+\item For OCaml, \verb"{Exec} = {BULL-dir}/Src/ocaml/learn.btye"
+\end{itemize}
+
+Users can specify which learning algorithm to use via passing input arguments.
+
+\begin{itemize}
+\item \verb"{Exec}" (without any input arguments):  using the CDNF algorithm
+\item \verb"{Exec} 0":  using the CDNF+ algorithm
+\item \verb"{Exec} 1":  using the CDNF++ algorithm
+\end{itemize}
+
+
+The executable reads a target function (a cnf formula in DIMACS format) from standard input. For example, the command\\
+\verb"{BULL-dir}/Src/java/learn.sh 0 < ../../dimacs/aim/aim-50-1_6-yes1-1.cnf"
+
+using the CDNF+ learning algorithm to learn a target function that equals the cnf formula in \verb"aim-50-1_6-yes1-1.cnf" via java interface.
+
+
+\end{document}

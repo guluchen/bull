@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/28/trunk/Src/solvers/minisat/mtl
+END
+template.mk
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/28/trunk/Src/solvers/minisat/mtl/template.mk
+END
+Map.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/28/trunk/Src/solvers/minisat/mtl/Map.h
+END
+Heap.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/28/trunk/Src/solvers/minisat/mtl/Heap.h
+END
+Vec.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/28/trunk/Src/solvers/minisat/mtl/Vec.h
+END
+IntTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/28/trunk/Src/solvers/minisat/mtl/IntTypes.h
+END
+XAlloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/28/trunk/Src/solvers/minisat/mtl/XAlloc.h
+END
+Alg.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/28/trunk/Src/solvers/minisat/mtl/Alg.h
+END
+Queue.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/28/trunk/Src/solvers/minisat/mtl/Queue.h
+END
+config.mk
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/28/trunk/Src/solvers/minisat/mtl/config.mk
+END
+Sort.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/28/trunk/Src/solvers/minisat/mtl/Sort.h
+END
+Alloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/28/trunk/Src/solvers/minisat/mtl/Alloc.h
+END

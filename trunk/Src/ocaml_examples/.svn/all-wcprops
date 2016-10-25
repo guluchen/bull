@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/68/trunk/Src/ocaml_examples
+END
+minisat_stubs.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/67/trunk/Src/ocaml_examples/minisat_stubs.cc
+END
+cdnfp.mli
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/68/trunk/Src/ocaml_examples/cdnfp.mli
+END
+minisat.ml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/67/trunk/Src/ocaml_examples/minisat.ml
+END
+oracle.ml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/67/trunk/Src/ocaml_examples/oracle.ml
+END
+query.ml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/67/trunk/Src/ocaml_examples/query.ml
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/67/trunk/Src/ocaml_examples/Makefile
+END
+.depend
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/67/trunk/Src/ocaml_examples/.depend
+END
+minisat.mli
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/67/trunk/Src/ocaml_examples/minisat.mli
+END
+query.mli
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/67/trunk/Src/ocaml_examples/query.mli
+END
+oracle.mli
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/67/trunk/Src/ocaml_examples/oracle.mli
+END
+boolFormula.ml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/67/trunk/Src/ocaml_examples/boolFormula.ml
+END
+cdnfp_stubs.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/68/trunk/Src/ocaml_examples/cdnfp_stubs.c
+END
+main.ml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/68/trunk/Src/ocaml_examples/main.ml
+END
+boolFormula.mli
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/67/trunk/Src/ocaml_examples/boolFormula.mli
+END
+cdnfp.ml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/68/trunk/Src/ocaml_examples/cdnfp.ml
+END
+main.ml.ml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/67/trunk/Src/ocaml_examples/main.ml.ml
+END

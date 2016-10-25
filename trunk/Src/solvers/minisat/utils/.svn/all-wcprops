@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/28/trunk/Src/solvers/minisat/utils
+END
+System.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/28/trunk/Src/solvers/minisat/utils/System.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/28/trunk/Src/solvers/minisat/utils/Makefile
+END
+ParseUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/28/trunk/Src/solvers/minisat/utils/ParseUtils.h
+END
+Options.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/28/trunk/Src/solvers/minisat/utils/Options.h
+END
+depend.mk
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/28/trunk/Src/solvers/minisat/utils/depend.mk
+END
